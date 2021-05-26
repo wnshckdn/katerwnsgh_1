@@ -1,5 +1,14 @@
 <template>
-  <main><div><h1>바쁜 사회에서 필요한 알람기능</h1></div>
-  <div><h2>스톱워치 기능</h2><br><h3>알람기능</h3></div>
-  </main>
+  <div>
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <p class="title">
+          직장인의 알람기능
+        </p>
+        <p class="subtitle">
+          늦지않게 일하러가자
+        </p>
+      </div>
+    </section>
+  </div>
 </template>
