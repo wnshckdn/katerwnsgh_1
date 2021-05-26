@@ -7,11 +7,10 @@
     </nav>
     <nuxt/>
     <footer class="footer">
-  <div class="content has-text-centered">
-    <i class="far fa-copyright">직장인에게 필요한 알람 여기에 있습니다.</i>
-    
-  </div>
-</footer>
+      <div class="content has-text-centered">
+        <i class="fas fa-copyright"></i> 2020-2021, 모든 저작권은 <strong>개발자 김준호</strong>에 있습니다
+      </div>
+    </footer>
   </div>
 </template>
 
