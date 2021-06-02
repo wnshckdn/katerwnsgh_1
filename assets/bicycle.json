@@ -1,6 +1,7 @@
 {
 
-    "names": ["santa-cruz",
+    "names": [
+        "santa-cruz",
         "samcheonri",
         "alton",
         "cello",
@@ -12,5 +13,33 @@
         "Wilreal",
         "inelli",
         "road master"
+    ],
+    "from": [
+        "KOREA",
+        "KOREA",
+        "KOREA",
+        "KOREA",
+        "KOREA",
+        "TAIWAN",
+        "TAIWAN",
+        "TAIWAN",
+        "ITALY",
+        "ITALY",
+        "ITALY",
+        "ITALY"
+    ],
+    "Product": [
+        "MTB",
+        "싸이클",
+        "싸이클",
+        "싸이클",
+        "싸이클",
+        "싸이클",
+        "MTB",
+        "싸이클",
+        "싸이클",
+        "MTB",
+        "MTB",
+        "MTB"
     ]
 }

@@ -3,7 +3,7 @@
     <nav class="breadcrumb">
         <ul>
           <li><nuxt-link to><i class="fas fa-home"></i>&nbsp;홈으로</nuxt-link></li>
-          <li><nuxt-link to="/alarm"><i class="fas fa-file-signature"></i>&nbsp;알람</nuxt-link></li>
+          <li><nuxt-link to="/worldBicycle"><i class="fas fa-file-signature"></i>&nbsp;알람</nuxt-link></li>
         </ul>
     </nav>
     <nuxt/>
