@@ -28,6 +28,34 @@
 한국에서는 '모닝콜'이라는 말을 자주 쓰고 있는데 이 단어의 어원은 영어가 아니라 재플리시인 モーニングコール이다. 참고로 모닝콜은 호텔 등에서 아침에 고객을 전화로 깨워준다는 것뿐 아니라, 아침에 타인이 전화를 걸어서 깨워준다는 의미도 포함한다. 재플리시라서 당연히 외국에선 통하지 않는다. 특히 영어권에서 morning call이라는 이야기를 아침에 호텔에서 하면 아침 회의로 착각할 수 있다. 전화로 깨워 주는 서비스를 원한다면 '웨이크 업 콜(wake-up call)'이라고 해야 한다.
             </div>
       </article>
+      <article class="notification">
+      <table class="table is-striped is-hovable is-fullwidth">
+        <thead>
+            <tr>
+              <th>106번 버스</th>
+              <th>배차시간</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>5:40</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>5:55 <small><small>(저상버스)</small></small></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>6:10</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>6:25</td>
+          </tr>
+        </tbody>
+      </table>
+      </article>
       </div>
       </div>
   </div>
