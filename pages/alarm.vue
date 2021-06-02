@@ -13,11 +13,26 @@
         </section>
         <section class="columns">
             <div class="column">
-                <table class="table">
-                    <table
+                <table class="table is-striped is-hovable is-fullwidth">
+                    <thead>
+                        <tr>
+                            <th>자전거 브랜드</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <template v-for="pos in tableBicycle.length">
+                            <tr :key="pos">
+                                <td> {{ pos }} </td>
+                                <td>{{tableBicycle[pos - 1]}}</td>
+                            </tr>
+                        </template>
+                    </tbody>
                 </table>
             </div>
             <div class="column"></div>
+            <div class="content">
+            <span class="tag is-danger">출처</span><span>myself</span>
+            </div>
         </section>
     </div>
 </template>
