@@ -1,3 +1,3 @@
 git add --all
-git commit -m "add json name product and from"
+git commit -m "update template everything"
 git push -u origin main

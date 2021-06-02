@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero is-primary">
+    <section class="hero is-success">
       <div class="hero-body">
         <p class="title">
           직장인의 알람기능 <i class="far fa-bell"></i>
