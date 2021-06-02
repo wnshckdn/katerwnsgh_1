@@ -76,12 +76,12 @@
                 <div class="column1">
                   <figure class="image is-128x128">
                 
-                <img src="http://m.tashu.or.kr/htmls/mobile/images/visual-text.png">
+                <img src="https://www.daejeon.go.kr/images/bike/contents/tasu.png">
                 </figure>
                 </div>
                 <div class="column2">
                   <figure class="image is-128x128">
-                <img src="~assets/tashu.jpg" alt="">
+                &nbsp;<img src="~assets/tashu.jpg" alt="">
                 </figure>
                 </div>
               </div>
