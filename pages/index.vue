@@ -13,7 +13,7 @@
     <br>
     <div class="columns">
       <div class="column1">
-          <article class="message">
+          <article class="message-info">
             <div class="message-header">
               <p>알람, 하루의 상쾌함</p>
             </div>
@@ -66,8 +66,8 @@
       </div>
       
       <div class="column2">
-        
-          <article class="message">
+          <article class="message-info">
+
             <div class="message-header">
               <p>타슈, 활기찬 아침을 책임진다</p>
             </div>
