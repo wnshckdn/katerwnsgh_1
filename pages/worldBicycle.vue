@@ -3,7 +3,7 @@
         <section class="hero is-success">
             <div class="hero-body">
                 <p class="title">
-                    <i class="far fa-bell"></i>자전거 브랜드
+                    <i class="fas fa-bicycle"></i> 자전거 브랜드
                 </p>
                 <p class="sub-title">
                     인지도 있고 좋은 자전거 브랜드
@@ -48,7 +48,7 @@
         <section class="hero is-success">
             <div class="hero-body">
                 <p class="title">
-                    <i class="fas fa-bicycle"></i>타슈
+                    <i class="fas fa-bicycle"></i> 타슈
                 </p>
                 <p class="sub-title">
                     없으면 타슈를 탑시다
