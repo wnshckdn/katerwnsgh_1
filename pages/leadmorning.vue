@@ -3,10 +3,10 @@
         <section class="hero is-success">
       <div class="hero-body">
         <p class="title">
-          직장인의 알람기능 <i class="far fa-bell"></i>
+          현대인의 상쾌한 아침 <i class="far fa-bell"></i>
         </p>
         <p class="subtitle">
-          늦지않게 일하러가자
+            활기를 불어넣어줄 다양한 커피
         </p>
       </div>
     </section>
@@ -18,10 +18,12 @@
                         <th></th>
                     </thead>
                     <tbody>
-                        <template v-for = "pos in morningfood.length">
+                        <template v-for = "pos in morningCoffee.length">
                             <tr :key = "pos">
                                 <td>{{ pos }}</td>
-                                <td>{{ tableDogKeys [pos - 1]}}</td>
+                                <td>{{ tableMorningCoffee[pos - 1].Name}}</td>
+                                <td>{{ tableMorningCoffee[pos - 1].from}}</td>
+                                <td>{{ tableMorningCoffee[pos - 1].Taste}}</td>
                                 <td>
                                     <span></span>
                                     </td>    
@@ -43,10 +45,10 @@
     import axios from 'axios';
     export default {
         async asyncData(){
-            const morningfood = await axios.get('https://api.edamam.com/api/food-database/v2/parser');
+            const morningCoffee = await axios.get('https://api.edamam.com/api/food-database/v2/parser');
             return {
-              tableMorningBreeds: morningfood.data.message,
-              tableMornigKeys: Object.keys(morningfood.data.message),
+              tableMorningCoffee: morningCoffee.data.message,
+              tableMornigKeys: Object.keys(morningCoffee.data.message),
             };
         },
     };
