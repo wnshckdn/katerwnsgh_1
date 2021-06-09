@@ -20,12 +20,12 @@
                         <th>맛</th>
                     </thead>
                     <tbody>
-                        <template v-for = "pos in morningCoffee.length">
+                        <template v-for = "pos in tablecoffeeName.length">
                             <tr :key = "pos">
                                 <td>{{ pos }}</td>
-                                <td>{{ tableMorningCoffee[pos - 1].Name}}</td>
-                                <td>{{ tableMorningCoffee[pos - 1].from}}</td>
-                                <td>{{ tableMorningCoffee[pos - 1].Taste}}</td>
+                                <td>{{ tablecoffeeName[pos - 1]}}</td>
+                                <td>{{ tablecoffeefrom[pos - 1]}}</td>
+                                <td>{{ tablecoffeeTaste[pos - 1]}}</td>
                                 
                             </tr> 
                         </template>
@@ -65,12 +65,13 @@
     import axios from 'axios';
     export default{
         async asyncData(){
-            const morningCoffee = await axios.get("https://github.com/wnshckdn/katerwnsgh_1/blob/main/assets/coffee.json");
-            console.log(Object.keys(morningCoffee))
-            console.log(morningCoffee.data.data.morningCoffee)
+            const goodcoffee = await axios.get("https://raw.githubusercontent.com/wnshckdn/katerwnsgh_1/main/assets/coffee.json");
         
+            console.log(goodcoffee)
             return {
-                tableMorningCoffee : morningCoffee.data.data.morningCoffee
+              tablecoffeeName: goodcoffee.data.Name,
+              tablecoffeefrom: goodcoffee.data.from,
+              tablecoffeeTaste: goodcoffee.data.Taste
             };
         }
     }
