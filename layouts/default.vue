@@ -4,7 +4,7 @@
         <ul>
           <li><nuxt-link to="/"><i class="fas fa-home"></i>&nbsp;홈으로</nuxt-link></li>
           <li><nuxt-link to="/worldBicycle"><i class="fas fa-file-signature"></i>&nbsp;자전거 브랜드</nuxt-link></li>
-          <li><nuxt-link to="/goodcoffee"><i class="fas fa-file-signature"></i>&nbsp;상쾌한 커피</nuxt-link></li>
+          <li><nuxt-link to="/goodcoffee"><i class="fas fa-coffee"></i>&nbsp;상쾌한 커피</nuxt-link></li>
         </ul>
     </nav>
     <nuxt/>

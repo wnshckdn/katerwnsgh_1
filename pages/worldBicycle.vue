@@ -6,7 +6,7 @@
                     <i class="far fa-bell"></i>자전거 브랜드
                 </p>
                 <p class="sub-title">
-                    여러 자전거 브랜드
+                    인지도 있고 좋은 자전거 브랜드
                 </p>
             </div>
         </section>
