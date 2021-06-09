@@ -45,7 +45,8 @@
     import axios from 'axios';
     export default {
         async asyncData(){
-            const morningCoffee = await axios.get('https://api.edamam.com/api/food-database/v2/parser');
+            const morningCoffee = await axios.get('https://github.com/wnshckdn/katerwnsgh_1/blob/main/assets/coffee.json');
+            
             return {
               tableMorningCoffee: morningCoffee.data.message,
               tableMornigKeys: Object.keys(morningCoffee.data.message),
