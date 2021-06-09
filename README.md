@@ -2,7 +2,7 @@
 
 > katerwnsgh information for everyone
 > hompage https://www.katerwnsgh.tk
-> netlify https://www.ecstatic-leavitt-b8f197.netlify.app
+> netlify https://ecstatic-leavitt-b8f197.netlify.app/
 ## Build Setup
 
 ``` bash
