@@ -10,22 +10,16 @@
         </p>
       </div>
     </section>
-    <section id>
-        <div column="col1"></div>
-        <div column="col2"></div>
-    </section>
-    </div>
+    <section class="columns">
+            <div class="column">
+            </div>
+            <div class="column">
+            </div>
+        </section>
 </template>
-<script>
-import  leadmorning  from "@/assets/bicycle.json";
 
-export default {
-    data() {
-        return {
-            tableBicycle: worldBicycle.names,
-            tableBicycleFrom: worldBicycle.from,
-            tableBicycleProduct: worldBicycle.Product
-        }
-    }
-}
+
+<script>
+    import axios from 'axios';
+    export default {};
 </script>
