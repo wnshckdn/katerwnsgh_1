@@ -1,8 +1,8 @@
 # katerwnsgh
 
 > katerwnsgh information for everyone
-> hompage www.katerwnsgh.tk
-> netlify www.ecstatic-leavitt-b8f197.netlify.app
+> hompage https://www.katerwnsgh.tk
+> netlify https://www.ecstatic-leavitt-b8f197.netlify.app
 ## Build Setup
 
 ``` bash
