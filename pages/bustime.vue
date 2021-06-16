@@ -6,7 +6,7 @@
           <i class="fas fa-coffee"></i> 현대인의 상쾌한 아침 
         </p>
         <p class="subtitle">
-            활기를 불어넣어줄 다양한 커피
+            늦지 않게 가자~ 버스 시간
         </p>
       </div>
     </section>
@@ -15,9 +15,9 @@
                 <table class="table is-striped is-hovable is-fullwidth">
                     <thead>
                         <th>번호</th>
-                        <th>이름</th>
-                        <th>원산지</th>
-                        <th>맛</th>
+                        <th>106번</th>
+                        <th>312번</th>
+                        <th>706번</th>
                     </thead>
                     <tbody>
                         <template v-for = "pos in tablecoffeeName.length">
@@ -65,13 +65,12 @@
     import axios from 'axios';
     export default{
         async asyncData(){
-            const goodcoffee = await axios.get("https://raw.githubusercontent.com/wnshckdn/katerwnsgh_1/main/assets/coffee.json");
+            const bustime = await axios.get("https://raw.githubusercontent.com/wnshckdn/katerwnsgh_1/main/assets/coffee.json");
         
-            console.log(goodcoffee)
             return {
-              tablecoffeeName: goodcoffee.data.Name,
-              tablecoffeefrom: goodcoffee.data.from,
-              tablecoffeeTaste: goodcoffee.data.Taste
+              tablecoffeeName: bustime.data.106,
+              tablecoffeefrom: bustime.data.from,
+              tablecoffeeTaste: bustime.data.Taste
             };
         }
     }
