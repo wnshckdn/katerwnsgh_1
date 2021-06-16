@@ -3,7 +3,7 @@
     <section class="hero is-success">
       <div class="hero-body">
         <p class="title">
-            <i class="far fa-bell"></i> 현대인의 상쾌한 아침
+            <i class="fas fa-bicycle"></i> 현대인의 상쾌한 아침
         </p>
         <p class="subtitle">
           늦지않게 일하러가자

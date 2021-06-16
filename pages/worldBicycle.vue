@@ -19,6 +19,7 @@
                             <th>자전거 브랜드</th>
                             <th>브랜드 국적</th>
                             <th>주요 상품</th>
+                            <th>예시 이미지</th>
                         </tr>
                     </thead>
                     <tbody>
