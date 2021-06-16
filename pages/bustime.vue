@@ -14,18 +14,20 @@
             <div class="column">
                 <table class="table is-striped is-hovable is-fullwidth">
                     <thead>
-                        <th>번호</th>
+                        <th>회차</th>
                         <th>106번</th>
-                        <th>312번</th>
                         <th>706번</th>
+                        <th>603번</th>
+                        <th>312번</th>
                     </thead>
                     <tbody>
-                        <template v-for = "pos in tablecoffeeName.length">
+                        <template v-for = "pos in table106.length">
                             <tr :key = "pos">
                                 <td>{{ pos }}</td>
-                                <td>{{ tablecoffeeName[pos - 1]}}</td>
-                                <td>{{ tablecoffeefrom[pos - 1]}}</td>
-                                <td>{{ tablecoffeeTaste[pos - 1]}}</td>
+                                <td>{{ table106[pos - 1]}}</td>
+                                <td>{{ table706[pos - 1]}}</td>
+                                <td>{{ table603[pos - 1]}}</td>
+                                <td>{{ table312[pos - 1]}}</td>
                                 
                             </tr> 
                         </template>
@@ -65,12 +67,13 @@
     import axios from 'axios';
     export default{
         async asyncData(){
-            const bustime = await axios.get("https://raw.githubusercontent.com/wnshckdn/katerwnsgh_1/main/assets/coffee.json");
+            const bustime = await axios.get("https://raw.githubusercontent.com/wnshckdn/katerwnsgh_1/main/assets/bustime.json");
         
             return {
-              tablecoffeeName: bustime.data.106,
-              tablecoffeefrom: bustime.data.from,
-              tablecoffeeTaste: bustime.data.Taste
+              table106: bustime.data.bus106,
+              table706: bustime.data.bus706,
+              table603: bustime.data.bus603,
+              table312: bustime.data.bus312
             };
         }
     }
