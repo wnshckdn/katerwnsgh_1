@@ -37,6 +37,11 @@
                                 <td>
                                     {{tableBicycleProduct [pos - 1]}}
                                 </td>
+                                <td>
+                                    <figure class="image is-128x128">
+                                        <img src= {{ tableBicycleimage [ pos - 1 ]}}>
+                                    </figure>
+                                </td>
                             </tr>
                         </template>
                     </tbody>
@@ -56,7 +61,8 @@ export default {
         return {
             tableBicycle: worldBicycle.names,
             tableBicycleFrom: worldBicycle.from,
-            tableBicycleProduct: worldBicycle.Product
+            tableBicycleProduct: worldBicycle.Product,
+            tableBicycleimage: worldBicycle.image
         }
     }
 }
