@@ -39,40 +39,32 @@
 한국에서는 '모닝콜'이라는 말을 자주 쓰고 있는데 이 단어의 어원은 영어가 아니라 재플리시인 モーニングコール이다. 참고로 모닝콜은 호텔 등에서 아침에 고객을 전화로 깨워준다는 것뿐 아니라, 아침에 타인이 전화를 걸어서 깨워준다는 의미도 포함한다. 재플리시라서 당연히 외국에선 통하지 않는다. 특히 영어권에서 morning call이라는 이야기를 아침에 호텔에서 하면 아침 회의로 착각할 수 있다. 전화로 깨워 주는 서비스를 원한다면 '웨이크 업 콜(wake-up call)'이라고 해야 한다.
                           <br>
       <section class="hero is-success is-middle">
-        잠자리를 정리하기
+        {{tablemorningname[0]}}
       </section>
-잠자리를 정리하는 일은 단순히 방을 깨끗하게 유지하는 일이 아니다 규칙적인 잠자리 정리는 내가 직접 통제
-할 수 있는 일을 매일 반복한다는 것을 뜻한다 아주 사소해 보이는 일 이지만내가 이불정리는 목표한 일을 달
-성했다는 작은 성취감을 주며 이는 곧 다른일도 해낼 수 있다는 자신감으로 이어진다
-              <br>
+        {{tablemorningdoing[0]}}
+      <br>
       <section class="hero is-success is-middle">
-        명상하기
+        {{tablemorningname[1]}}
       </section>
-타이탄 중 80퍼센트 이상이 매일 아침 어떤 식으로든지 마음 챙김수련을 한다무려 80퍼센트다 그들은 명상
-은 인간의 모든 능력을 향상시크는 원천기술이라고 평가한다 책에는 크게 세가지 명상법을 소개하고 있는데
-읽어보고 나에게 맞는 명상법을 골라 실천하면 좋을 듯 하다
-              <br>
+        {{tablemorningdoing[1]}}
+      <br>
       <section class="hero is-success is-middle">
-        동장 반복하기
+        {{tablemorningname[2]}}
       </section>
-미 해군 최우수 지휘관으로 이라크 전쟁에서 가장 많은 훈장을 받은 조코 윌링크는 매일 늦어도 새벽 4시30분
-에 일어나 가벼운 스트레칭을 1분 이내로 한다 타인보다 먼저 무엇인가를 했다는 사실이 그의 삶에 긍정적인
-영향력을 향사한다 우리나라의 사례 중에 꼽자면 가수 박진영을 꼽을 수 있는데 그는 아침에 일어나면 스트레
-칭 목풀기를 규칙적으로 한다
-              <br>
+        {{tablemorningdoing[2]}}
+      <br>
       <section class="hero is-success is-middle">
-        차 마시기
+        {{tablemorningname[3]}}
       </section>
-아침에 마시는 차는 인지능력 개선과 지방 분해에 탁월한 효과를 준다 책의 저자 팀 페리ㅡ는 숙성시킨 보이차
-와 용정차를 85도 정도에서 우려내 마실 것을 추천한다
-              <br>
+        {{tablemorningdoing[3]}}
+      <br>
       <section class="hero is-success is-middle">
-        아침 일기쓰기
+        {{tablemorningname[4]}}
       </section>
-피곤한 하루를 마무리하고 일기를 쓰면 오늘은 너무 지쳤어라는 푸념만 생길 수 있다 때문에 일기는 하루의
-마무리가 아니라 하루의 시작을 위해 쓸 때 가장 효과적이다 하단은 팀 페리스가 아침마다 쓰는 5분 저널이다
-            
-            </div>
+        {{tablemorningdoing[4]}}
+      <br>
+
+      </div>
             
       </article>
 
@@ -80,3 +72,16 @@
       </div>
   </div>
 </template>
+<script>
+    import axios from 'axios';
+    export default{
+        async asyncData(){
+            const morning = await axios.get("https://raw.githubusercontent.com/wnshckdn/katerwnsgh_1/main/assets/tashu.json");
+        
+            return {
+              tablemorningname: morning.data.name,
+              tablemorningdoing: morning.data.doing
+            };
+        }
+    }
+</script>

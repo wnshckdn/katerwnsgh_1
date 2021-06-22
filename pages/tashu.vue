@@ -74,7 +74,6 @@
         async asyncData(){
             const tashu = await axios.get("https://raw.githubusercontent.com/wnshckdn/katerwnsgh_1/main/assets/tashu.json");
         
-            console.log(goodcoffee)
             return {
               tabletashuName: tashu.data.name
             };
