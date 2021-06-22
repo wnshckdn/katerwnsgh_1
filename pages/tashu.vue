@@ -67,3 +67,18 @@
       </div>
   </div>
 </template>
+
+<script>
+    import axios from 'axios';
+    export default{
+        async asyncData(){
+            const tashu = await axios.get("https://raw.githubusercontent.com/wnshckdn/katerwnsgh_1/main/assets/coffee.json");
+        
+            console.log(goodcoffee)
+            return {
+              tabletashuName: tashu.data.name,
+              tabletashuaddress: tashu.data.address
+            };
+        }
+    }
+</script>

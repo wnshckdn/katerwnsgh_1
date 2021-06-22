@@ -70,7 +70,6 @@
         async asyncData(){
             const goodcoffee = await axios.get("https://raw.githubusercontent.com/wnshckdn/katerwnsgh_1/main/assets/coffee.json");
         
-            console.log(goodcoffee)
             return {
               tablecoffeeName: goodcoffee.data.Name,
               tablecoffeefrom: goodcoffee.data.from,

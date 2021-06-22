@@ -3,7 +3,7 @@ module.exports = {
      ** Headers of the page
      */
     head: {
-        title: '내 알람',
+        title: '상쾌한 아침',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -20,7 +20,10 @@ module.exports = {
                 href: "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"
             }
         ],
-        script: [{ src: "https://use.fontawesome.com/releases/v5.15.3/js/all.js" }]
+        script: [
+            { defer: "", src: "https://use.fontawesome.com/releases/v5.15.3/js/all.js" },
+            { src: "https://uicdn.toast.com/chart/latest/toastui-chart.min.js" }
+        ]
     },
     /*
      ** Customize the progress bar color
