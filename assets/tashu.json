@@ -5,11 +5,5 @@
         "실시간 현황",
         "대여소 정보",
         "의무와 책임"
-    ],
-    "address": [
-        "https://www.tashu.or.kr/introduceAction.do?process=howtorent",
-        "https://www.tashu.or.kr/status.do?process=userStatusView&left=2",
-        "https://www.tashu.or.kr/userStationAction.do?process=stationTotalList",
-        "https://www.tashu.or.kr/introduceAction.do?process=charges&left=1"
     ]
 }

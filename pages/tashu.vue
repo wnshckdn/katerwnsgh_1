@@ -46,19 +46,19 @@
         </thead>
         <tbody>
           <tr>
-            <td>이용방법</td>
+            <td>{{tabletashuName[0]}}</td>
             <td><a href="https://www.tashu.or.kr/introduceAction.do?process=howtorent">페이지 이동</a></td>
           </tr>
           <tr>
-            <td>실시간 현황</td>
+            <td>{{tabletashuName[1]}}</td>
             <td><a href="https://www.tashu.or.kr/status.do?process=userStatusView&left=2">페이지 이동</a></td>
           </tr>
           <tr>
-            <td>대여소 정보</td>
+            <td>{{tabletashuName[2]}}</td>
             <td><a href="https://www.tashu.or.kr/userStationAction.do?process=stationTotalList">페이지 이동</a></td>
           </tr>
           <tr>
-            <td>의무와 책임</td>
+            <td>{{tabletashuName[3]}}</td>
             <td><a href="https://www.tashu.or.kr/introduceAction.do?process=charges&left=1">페이지 이동</a></td>
           </tr>
         </tbody>
@@ -72,12 +72,11 @@
     import axios from 'axios';
     export default{
         async asyncData(){
-            const tashu = await axios.get("https://raw.githubusercontent.com/wnshckdn/katerwnsgh_1/main/assets/coffee.json");
+            const tashu = await axios.get("https://raw.githubusercontent.com/wnshckdn/katerwnsgh_1/main/assets/tashu.json");
         
             console.log(goodcoffee)
             return {
-              tabletashuName: tashu.data.name,
-              tabletashuaddress: tashu.data.address
+              tabletashuName: tashu.data.name
             };
         }
     }
