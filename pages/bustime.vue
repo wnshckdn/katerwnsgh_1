@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="hero is-success">
+        <section class="hero is-small is-link">
       <div class="hero-body">
         <p class="title">
           <i class="fas fa-bus"></i> 현대인의 상쾌한 아침 

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="hero is-success">
+        <section class="hero is-small is-success">
             <div class="hero-body">
                 <p class="title">
                     <i class="fas fa-bicycle"></i> 자전거 브랜드
@@ -12,6 +12,28 @@
         </section>
         <section class="columns">
             <div class="column">
+                <section class="columns">
+                    <div class="column">
+                        <figure class="image is-full-width">
+                            <img src= "https://mblogthumb-phinf.pstatic.net/20160511_33/odbikem_1462958909611s6MAM_JPEG/p5pb13343822.jpg?type=w800">
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <figure class="image is-256x300">
+                            <img src= "https://www.altonsports.com/prdimg/get/SPEEDER-lite-21-1_1060X600.png">
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <figure class="image is-full-width">
+                            <img src= "https://www.bikeinn.com/f/13752/137525039/cinelli-superstar-disc-ultegra-2020-road-bike.jpg">
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <figure class="image is-256x256">
+                            <img src= "https://images.giant-bicycles.com/b_white,c_pad,h_650,q_80/tnxykjf4dszs1ebnv9s4/MY20ATX227-5_ColorA.jpg">
+                        </figure>
+                    </div>
+                </section>
                 <table class="table is-striped is-hovable is-fullwidth">
                     <thead>
                         <tr>
@@ -19,7 +41,6 @@
                             <th>자전거 브랜드</th>
                             <th>브랜드 국적</th>
                             <th>주요 상품</th>
-                            <th>예시 이미지</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -36,11 +57,6 @@
                                 </td>
                                 <td>
                                     {{tableBicycleProduct [pos - 1]}}
-                                </td>
-                                <td>
-                                    <figure class="image is-128x128">
-                                        <img src= {{ tableBicycleimage [ pos - 1 ]}}>
-                                    </figure>
                                 </td>
                             </tr>
                         </template>

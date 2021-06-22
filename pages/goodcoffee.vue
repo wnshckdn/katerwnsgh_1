@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="hero is-success">
+        <section class="hero is-small is-warning">
       <div class="hero-body">
         <p class="title">
           <i class="fas fa-coffee"></i> 현대인의 상쾌한 아침 
@@ -31,9 +31,7 @@
                         </template>
                     </tbody>
                 </table>
-            </div>
-            <div class="column">
-                <table class="table">
+                <table class="table is-striped is-hovable is-fullwidth">
                     <thead>
                         <th>사이트</th>
                         <th>이름</th>
@@ -54,6 +52,11 @@
                         
                     </tbody>
                 </table>
+            </div>
+            <div class="column">
+                <figure class="image is-full-width">
+                            <img src= "http://baristarules.maeil.com/wp-content/uploads/1-24.jpg">
+                </figure>
             </div>
     </section>
     </div>

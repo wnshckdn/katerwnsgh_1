@@ -1,12 +1,16 @@
 <template>
   <div>
-    <section class="hero is-success">
+    <section class="hero is-primary">
       <div class="hero-body">
         <p class="title">
             <i class="far fa-bell"></i> 현대인의 상쾌한 아침
-        </p>
+        </p><br>
         <p class="subtitle">
-          늦지않게 일하러가자
+          월요일은 밝게...<br><br>
+          화요일은 활기차게..<br><br>
+          수요일은 새롭게!<br><br>
+          목요일은 기쁘게!!<br><br>
+          금요일은 불타게!!!
         </p>
       </div>
     </section>
