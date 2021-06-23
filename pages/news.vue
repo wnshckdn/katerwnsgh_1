@@ -87,7 +87,7 @@
     import axios from 'axios';
     export default{
         async asyncData(){
-            const newsname = await axios.get("https://raw.githubusercontent.com/wnshckdn/katerwnsgh_1/main/assets/tashu.json");
+            const newsname = await axios.get("https://raw.githubusercontent.com/wnshckdn/katerwnsgh_1/main/assets/newsname.json");
         
             return {
               tablenewsname: newsname.data.name
