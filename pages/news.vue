@@ -13,7 +13,7 @@
     </section>
     <br>
     <section class="hero is-success is-middle">
-        네이버 뉴스, 다음 뉴스, 카카오 뉴스 등 유수의 뉴스들과 코로나 현황 파악하자.
+        네이버 뉴스, 다음 뉴스, 여러 언론사의 뉴스들과 코로나 현황 파악하자.
     </section>
     <br>
         <table class="table is-striped is-hovable is-fullwidth">
