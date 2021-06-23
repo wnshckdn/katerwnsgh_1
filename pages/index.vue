@@ -76,7 +76,7 @@
     import axios from 'axios';
     export default{
         async asyncData(){
-            const morning = await axios.get("https://raw.githubusercontent.com/wnshckdn/katerwnsgh_1/main/assets/tashu.json");
+            const morning = await axios.get("https://raw.githubusercontent.com/wnshckdn/katerwnsgh_1/main/assets/index.json");
         
             return {
               tablemorningname: morning.data.name,
