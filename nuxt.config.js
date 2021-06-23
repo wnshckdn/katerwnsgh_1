@@ -21,8 +21,7 @@ module.exports = {
             }
         ],
         script: [
-            { defer: "", src: "https://use.fontawesome.com/releases/v5.15.3/js/all.js" },
-            { src: "https://uicdn.toast.com/chart/latest/toastui-chart.min.js" }
+            { defer: "", src: "https://use.fontawesome.com/releases/v5.15.3/js/all.js" }
         ]
     },
     /*
