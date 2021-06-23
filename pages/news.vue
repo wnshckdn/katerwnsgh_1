@@ -34,7 +34,7 @@
                         <td>{{tablenewsname[4]}}</td>
                     <td><figure class="image is-128x128"> 
                             <a href="https://www.ytn.co.kr/">
-                    <img src="~assets/ytn.png" alt="">
+                    <img src="~assets/ytn.PNG" alt="">
                             </a>
                         </figure></td>
                 </tr>
@@ -48,7 +48,7 @@
                     <td>{{tablenewsname[5]}}</td>
                     <td><figure class="image is-128x128">
                         <a href="https://www.mbn.co.kr/">
-                    <img src="~assets/mbn.png" alt="">
+                    <img src="~assets/mbn.PNG" alt="">
                     </a>
                     </figure></td>
                 </tr>
@@ -62,20 +62,20 @@
                     <td>{{tablenewsname[6]}}</td>
                     <td><figure class="image is-128x128">
                         <a href="https://www.yna.co.kr/index?site=header_logo">
-                    <img src="~assets/yhn.png" alt=""></a>
+                    <img src="~assets/yhn.PNG" alt=""></a>
                     </figure></td>
                 </tr>
                 <tr>
                     <td>{{tablenewsname[3]}}</td>
                     <td><figure class="image is-128x128">
                         <a href="http://corona.daejeon.go.kr/index.do/">
-                    <img src="~assets/daejeon.png" alt="">
+                    <img src="~assets/daejeon.PNG" alt="">
                     </a>
                     </figure></td>
                     <td>{{tablenewsname[7]}}</td>
                     <td><figure class="image is-128x128">
                         <a href="https://news.kbs.co.kr/common/main.html?ref=pLogo">
-                    <img src="~assets/kbs.png" alt=""> </a>
+                    <img src="~assets/kbs.PNG" alt=""> </a>
                     </figure></td>
                 </tr>
             </tbody>
