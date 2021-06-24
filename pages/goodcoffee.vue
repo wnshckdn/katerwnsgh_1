@@ -55,7 +55,7 @@
             </div>
             <div class="column">
                 <figure class="image is-full-width">
-                            <img src= "http://baristarules.maeil.com/wp-content/uploads/1-24.jpg">
+                    <img src="~assets/coffee.jpg" alt="">
                 </figure>
             </div>
     </section>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero is-small is-primary">
+    <section class="hero is-small is-danger">
       <div class="hero-body">
         <p class="title">
             <i class="far fa-newspaper"></i> 새로운 사실, 뉴스
@@ -12,8 +12,8 @@
       </div>
     </section>
     <br>
-    <section class="hero is-success is-middle">
-        네이버 뉴스, 다음 뉴스, 여러 언론사의 뉴스들과 코로나 현황 파악하자.
+    <section class="hero is-small is-success">
+        &nbsp;&nbsp;네이버 뉴스, 다음 뉴스, 여러 언론사의 뉴스들과 코로나 현황 파악하자.
     </section>
     <br>
         <table class="table is-striped is-hovable is-fullwidth">

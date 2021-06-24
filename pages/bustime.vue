@@ -10,6 +10,12 @@
         </p>
       </div>
     </section>
+    <figure class="image is-middle">
+        <img src="~assets/bus.PNG" alt="">
+    </figure>
+    <section class="hero is-success is-middle">
+        &nbsp;&nbsp;&nbsp;&nbsp;목원대에서 출발하는 버스 시간표
+    </section>
     <section class="columns">
             <div class="column">
                 <table class="table is-striped is-hovable is-fullwidth">
@@ -55,3 +61,12 @@
         }
     }
 </script>
+
+<style scoped>
+    .image{
+        width: 780px;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+    }
+</style>
