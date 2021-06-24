@@ -34,13 +34,15 @@
                                 <td>{{ table706[pos - 1]}}</td>
                                 <td>{{ table603[pos - 1]}}</td>
                                 <td>{{ table312[pos - 1]}}</td>
-                                
                             </tr> 
                         </template>
                     </tbody>
                 </table>
             </div>
     </section>
+    <div class="content">
+            <span class="tag is-danger"><a href="https://github.com/wnshckdn/katerwnsgh_1">출처</a></span><span>&nbsp;myself</span>
+            </div>
     </div>
 
     

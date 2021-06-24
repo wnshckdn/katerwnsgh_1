@@ -77,8 +77,7 @@ export default {
         return {
             tableBicycle: worldBicycle.names,
             tableBicycleFrom: worldBicycle.from,
-            tableBicycleProduct: worldBicycle.Product,
-            tableBicycleimage: worldBicycle.image
+            tableBicycleProduct: worldBicycle.Product
         }
     }
 }
