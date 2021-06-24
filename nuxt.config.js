@@ -3,7 +3,7 @@ module.exports = {
      ** Headers of the page
      */
     head: {
-        title: '내 알람',
+        title: '활기찬 아침',
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
